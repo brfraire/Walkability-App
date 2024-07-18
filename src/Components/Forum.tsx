@@ -1,12 +1,12 @@
 import React from 'react';
 // import { Link } from 'react-router-dom'; 
 
-const Homepage = () => {
+const Forum = () => {
     return (
         <div> 
-            <h1 className = "heading"> Home Page </h1>
+            <h1 className = "heading"> Forum </h1>
         </div>
     );
 };
 
-export default Homepage; 
+export default Forum; 

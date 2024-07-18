@@ -1,12 +1,12 @@
 import React from 'react';
 // import { Link } from 'react-router-dom'; 
 
-const Homepage = () => {
+const DataandHealth = () => {
     return (
         <div> 
-            <h1 className = "heading"> Home Page </h1>
+            <h1 className = "heading"> Data and Health </h1>
         </div>
     );
 };
 
-export default Homepage; 
+export default DataandHealth; 
