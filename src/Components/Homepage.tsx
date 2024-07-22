@@ -3,6 +3,7 @@ import ReactMapGL, {FullscreenControl, GeolocateControl, Marker, Source, Layer, 
 import 'mapbox-gl/dist/mapbox-gl.css';
 import polyline from '@mapbox/polyline';
 import Instructions from "./Instructions";
+import { SearchBox } from '@mapbox/search-js-react';
 
 const Homepage = () => {
     const [viewState, setViewState] = useState({
@@ -115,6 +116,10 @@ const Homepage = () => {
 
     return (
         <section className="relative">
+            <form>
+                <SearchBox accessToken = "pk.eyJ1IjoiYmZyYWlyZSIsImEiOiJjbHlyanpjbmswNWJlMmlvbnB0a2c5eWplIn0.2SMu2M_9wR0IvIfkPth7CA"
+                />
+            </form>
            <ReactMapGL
             {...viewState}
             onClick= {handleClick}
